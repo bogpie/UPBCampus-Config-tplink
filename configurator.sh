@@ -15,14 +15,11 @@ then
  rm -rf /etc/init.d/wpa-autostart
  echo "Se actualizeaza cache-ul managerului de pachete OPKG..."
  opkg update
- # echo "Se instaleaza editorul Nano..."
- # opkg install nano
  echo "Se sterge pachetul wpad-mini si wpad (daca acesta exista)..."
  opkg remove wpad-mini
  opkg remove wpad
  opkg remove wpad-wolfssl
  opkg remove wpad-basic-wolfssl
- opkg remove nano
  echo "Se instaleaza pachetul wpad-openssl..."
  opkg install wpad-openssl
  echo "Configurare WPAD"
