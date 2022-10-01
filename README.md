@@ -1,14 +1,10 @@
-# UPBCampus-Config
-Configurator de retea pentru UPB-Campus destinat echipamentelor care au instalat firmware-ul OpenWRT
+fork from  DariusIurca/UPBCampus-Config
 
-Instructiuni:
-Dupa ce ai instalat OpenWRT pe router-ul tau, conecteaza te la un hotspot WiFi din interfata de browser OpenWRT.
-Deschide un terminal sau CMD si introdu comanda: ssh root@192.168.1.1
-Dupa ce te-ai logat in SSH-ul router-ului, foloseste urmatoarele comenzi pentru a rula script-ul:
+cd ~
 
-cd ~ | 
-wget https://raw.githubusercontent.com/DariusIurca/UPBCampus-Config/main/configurator.sh | 
-chmod +x configurator.sh | 
-./configurator.sh | 
+wget https://raw.githubusercontent.com/bogpie/UPBCampus-Config-tplink/main/configurator.sh
 
-Acum, urmeaza instructiunile configuratorului.
+chmod +x configurator.sh 
+
+./configurator.sh
+
