@@ -20,6 +20,7 @@ then
  echo "Se sterge pachetul wpad-mini si wpad (daca acesta exista)..."
  opkg remove wpad-mini
  opkg remove wpad
+ opkg remove wpad-wolfssl
  echo "Se instaleaza pachetul wpad-openssl..."
  opkg install wpad-openssl
  echo "Configurare WPAD"
